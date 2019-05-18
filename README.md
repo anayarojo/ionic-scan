@@ -32,8 +32,10 @@ this.barcodeScanner.scan().then(barcodeData => {
 
 https://ionicframework.com/docs/native/in-app-browser#installation
 
+```
 ionic g service services/storage
 ionic g service services/utilities
+```
 
 ## Storage implementation
 
@@ -121,7 +123,9 @@ browser.close();
 
 https://ionicframework.com/docs/native/in-app-browser
 
+```
 ionic g page pages/map
+```
 
 ## File implementation
 
