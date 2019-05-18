@@ -1,6 +1,12 @@
 # Ionic scanner
 Aplicación hecha en ionic 4 para scanear codigos de barra y QR
 
+![Ionic 4 ─ Scanner ─ Preview 1](https://raw.githubusercontent.com/anayarojo/ionic-scanner/master/wiki/img/Ionic%204%20%E2%94%80%20Scanner%20%E2%94%80%20Preview%201.PNG)
+
+![Ionic 4 ─ Scanner ─ Preview 2](https://raw.githubusercontent.com/anayarojo/ionic-scanner/master/wiki/img/Ionic%204%20%E2%94%80%20Scanner%20%E2%94%80%20Preview%202.PNG)
+
+![Ionic 4 ─ Scanner ─ Preview 3](https://raw.githubusercontent.com/anayarojo/ionic-scanner/master/wiki/img/Ionic%204%20%E2%94%80%20Scanner%20%E2%94%80%20Preview%203.PNG)
+
 ```
 ionic start scanner tabs
 ```
