@@ -1,0 +1,29 @@
+<ion-header no-border>
+  <ion-toolbar>
+
+    <ion-title>
+      History
+    </ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button color="primary" (click)="sendEmail()">
+        <ion-icon slot="icon-only" name="send"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<ion-list>
+  <ion-item *ngFor="let registry of storageService.savedRegistries" (click)="storageService.openSavedRegistry(registry)" detail>
+    <ion-icon slot="start" [name]="registry.icon" color="primary"></ion-icon>
+    <ion-label>
+      <h2>{{ registry.text }}</h2>
+      <p>{{ registry.created | date: 'medium'}}</p>
+    </ion-label>
+  </ion-item>
+</ion-list>
+
+</ion-content>
